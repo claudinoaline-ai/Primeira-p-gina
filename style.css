@@ -15,8 +15,6 @@
      margin: 0 auto;
      padding: 16px;
      display: flex;
-     flex-direction: column;
-     gap: 24px;
  }
 
  img {
