@@ -1,6 +1,7 @@
     :root {
         --cor-primária: #183C63;
         --cor-secundária #3a638e;
+        --cor-terciária #cf1010;
         --cor-fundo: #ffffff;
          --cor-texto: #151428;
          --cor-contraste: #f3eef7;
@@ -13,17 +14,17 @@
     }
  
  header {
-     background-color: #183C63;
-     color: #FFFFFF; 
+     background-color:  var(--cor-primária);
+     color: var(--cor-contraste);
      text-align: center;
      margin: 0 auto;
      padding: 16px;
-     border: 5px solid #cf1010;
+     border: 5px solid var(--cor-terciária)
  }
 
  main {
-     background-color: #FFFFFF;
-     color: #183C63;
+     background-color: var(--cor-fundo);
+     color: var(--cor-primária);
      margin: 0 auto;
      padding: 16px;
      
@@ -35,8 +36,7 @@
  article {
     display: flex;
 
-    border: 1px solid #183C63;
-
+    border: 1px solid var(--cor-primária)
     margin: 16px;
     gap: 16px;
     padding: 16px;
