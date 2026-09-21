@@ -1,5 +1,10 @@
     :root {
-        --cor-primária:
+        --cor-primária: #183C63;
+        --cor-secundária #3a638e;
+        --cor-fundo: #ffffff;
+         --cor-texto: #151428;
+         --cor-contraste: #f3eef7;
+         --cor-botao: #f9f9f9;
     }
     
     
@@ -9,7 +14,7 @@
  
  header {
      background-color: #183C63;
-     color: #FFFFFF;
+     color: #FFFFFF; 
      text-align: center;
      margin: 0 auto;
      padding: 16px;
